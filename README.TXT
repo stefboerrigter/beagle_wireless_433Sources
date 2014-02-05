@@ -2,13 +2,13 @@
 
 This package contains four libraries for use with Arduino:
 
- - RemoteSensor: send and receive data of a weather station with remote 
+ - RemoteSensor: send and receive data of a weather station with remote
    sensors.
  - RemoteSwitch and NewRemoteSwitch: send and receive data of radio controlled
    power switches.
  - InterruptChain: chains Arduino interrupts; allows for receiving both sensor
    and switch controls at the same time.
-   
+
 The libraries are well documented with helpful examples to get you started.
 
 Latest source and wiki: https://bitbucket.org/fuzzillogic/433mhzforarduino
@@ -29,3 +29,6 @@ QUICKSTART:
  * Press buttons on your remote(s), and/or wait for your thermo/hygro sensor
    to transmit.
  * You should see the received data in the serial monitor.
+
+Disclaimer
+This archive is a clone of https://bitbucket.org/fuzzillogic/433mhzforarduino/src, with my modifications
